@@ -1,0 +1,18 @@
+const customStyles = {
+                     option: (provided, state) => ({
+                       ...provided,
+                       border: "1px solid #a6a4bb",
+                       color: "#bdbcd2",
+                       backgroundColor: "#212033"
+                     }),
+                     control: provided => ({
+                       ...provided,
+                       marginTop: "0%",
+                       background: "#212033"
+                     }),
+                     singleValue: provided => ({
+                       ...provided,
+                       color: "#bdbcd2",
+                       padding: 0
+                     })
+                   };
